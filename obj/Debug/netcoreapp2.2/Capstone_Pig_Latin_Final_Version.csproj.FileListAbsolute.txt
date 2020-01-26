@@ -1,0 +1,11 @@
+C:\Users\New Owner\Documents\PROGRAMMING\C#\Grand Circus\Capstones\Capstone_Pig_Latin_Final_Version\bin\Debug\netcoreapp2.2\Capstone_Pig_Latin_Final_Version.deps.json
+C:\Users\New Owner\Documents\PROGRAMMING\C#\Grand Circus\Capstones\Capstone_Pig_Latin_Final_Version\bin\Debug\netcoreapp2.2\Capstone_Pig_Latin_Final_Version.runtimeconfig.json
+C:\Users\New Owner\Documents\PROGRAMMING\C#\Grand Circus\Capstones\Capstone_Pig_Latin_Final_Version\bin\Debug\netcoreapp2.2\Capstone_Pig_Latin_Final_Version.runtimeconfig.dev.json
+C:\Users\New Owner\Documents\PROGRAMMING\C#\Grand Circus\Capstones\Capstone_Pig_Latin_Final_Version\bin\Debug\netcoreapp2.2\Capstone_Pig_Latin_Final_Version.dll
+C:\Users\New Owner\Documents\PROGRAMMING\C#\Grand Circus\Capstones\Capstone_Pig_Latin_Final_Version\bin\Debug\netcoreapp2.2\Capstone_Pig_Latin_Final_Version.pdb
+C:\Users\New Owner\Documents\PROGRAMMING\C#\Grand Circus\Capstones\Capstone_Pig_Latin_Final_Version\obj\Debug\netcoreapp2.2\Capstone_Pig_Latin_Final_Version.csprojAssemblyReference.cache
+C:\Users\New Owner\Documents\PROGRAMMING\C#\Grand Circus\Capstones\Capstone_Pig_Latin_Final_Version\obj\Debug\netcoreapp2.2\Capstone_Pig_Latin_Final_Version.csproj.CoreCompileInputs.cache
+C:\Users\New Owner\Documents\PROGRAMMING\C#\Grand Circus\Capstones\Capstone_Pig_Latin_Final_Version\obj\Debug\netcoreapp2.2\Capstone_Pig_Latin_Final_Version.AssemblyInfoInputs.cache
+C:\Users\New Owner\Documents\PROGRAMMING\C#\Grand Circus\Capstones\Capstone_Pig_Latin_Final_Version\obj\Debug\netcoreapp2.2\Capstone_Pig_Latin_Final_Version.AssemblyInfo.cs
+C:\Users\New Owner\Documents\PROGRAMMING\C#\Grand Circus\Capstones\Capstone_Pig_Latin_Final_Version\obj\Debug\netcoreapp2.2\Capstone_Pig_Latin_Final_Version.dll
+C:\Users\New Owner\Documents\PROGRAMMING\C#\Grand Circus\Capstones\Capstone_Pig_Latin_Final_Version\obj\Debug\netcoreapp2.2\Capstone_Pig_Latin_Final_Version.pdb
