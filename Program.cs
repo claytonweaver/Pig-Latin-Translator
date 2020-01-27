@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Capstone_Pig_Latin_Try_2
 {
@@ -6,27 +6,38 @@ namespace Capstone_Pig_Latin_Try_2
     {
         static void Main(string[] args)
         {
-            string userInput = GetUserInputLower("Enter your pig latin phrase!");
-            string[] sentence = ConvertToStringArray(userInput);
-
-
-            foreach (var word in sentence)
+            bool resume = true;
+            while (resume)
             {
-                string newWord = RemoveApostrophe(word);
-                bool startswithVowel = StartsWithVowel(newWord);
+                string userInput = GetUserInputLower("Enter your pig latin phrase!");
+                string[] sentence = ConvertToStringArray(userInput);
 
-                if (startswithVowel)
+
+                foreach (var word in sentence)
                 {
-                    Console.Write($"{newWord}way ");
+                    string newWord = RemoveApostrophe(word);
+                    bool startswithVowel = StartsWithVowel(newWord);
+
+                    if (startswithVowel)
+                    {
+                        Console.Write($"{newWord}way ");
+                    }
+                    else
+                    {
+                        int vowelIndex = FindFirstVowelIndex(newWord);
+                        string firstHalfWord = newWord.Substring(0, vowelIndex);
+                        string secondHalfWord = newWord.Remove(0, vowelIndex);
+                        string finalWord = $"{secondHalfWord}{firstHalfWord}ay ";
+                        Console.Write(finalWord);
+                    }
                 }
-                else
-                {
-                    int vowelIndex = FindFirstVowelIndex(newWord);
-                    string firstHalfWord = newWord.Substring(0, vowelIndex);
-                    string secondHalfWord = newWord.Remove(0, vowelIndex);
-                    string finalWord = $"{secondHalfWord}{firstHalfWord}ay ";
-                    Console.Write(finalWord);
-                }
+                Console.WriteLine();
+                Console.WriteLine("Would you like to continue? (Y/N)");
+                string userAnswer = Console.ReadLine().ToUpper();
+                char userKey = userAnswer[0];
+                resume = AskToContinue(userKey);
+
+
 
             }
         }
@@ -96,10 +107,21 @@ namespace Capstone_Pig_Latin_Try_2
             }
 
         }
-
-
-
+        static bool AskToContinue(char input)
+        {
+            if (input == 'Y')
+            {
+                return true;
+            }
+            else if (input == 'N')
+            {
+                return false;
+            }
+            else
+            {
+                Console.WriteLine("Not a valid input.");
+                return false;
+            }
+        }
     }
-
 }
-
